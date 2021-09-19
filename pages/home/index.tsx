@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
+
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@styles/Home.module.css";
-import Storyblok from "@service/storyblok";
+
 import Layout from "@components/Layout";
 import Page from "@components/Page";
+import Storyblok from "@service/storyblok";
+import styles from "@styles/Home.module.css";
+
 
 const Home: NextPage = () => {
   const [content, setContent] = useState(null);

@@ -1,6 +1,8 @@
-import DynamicComponent from "./DynamicComponent";
 import SbEditable from "storyblok-react";
+
 import styles from "@styles/Home.module.css";
+
+import DynamicComponent from "./DynamicComponent";
 
 const Page = ({ content }) => {
   if (!content) {

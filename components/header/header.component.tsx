@@ -1,9 +1,11 @@
+import { useCallback } from "react";
+
 import { Link } from "react-router-dom";
 import { useLocation } from "react-use";
 
 import logo from "@assets/images/logo.svg";
+
 import { HeaderWrapper } from "./header.styled";
-import { useCallback } from "react";
 
 export const Header = () => {
   const state = useLocation();

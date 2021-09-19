@@ -1,4 +1,5 @@
 import { Component } from "react";
+
 import SbEditable from "storyblok-react";
 
 export default class extends Component {

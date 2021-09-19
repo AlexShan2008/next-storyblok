@@ -1,7 +1,7 @@
-import Teaser from "./Teaser";
 import Feature from "./Feature";
 import Grid from "./Grid";
 import Placeholder from "./Placeholder";
+import Teaser from "./Teaser";
 
 const Components = {
   teaser: Teaser,
