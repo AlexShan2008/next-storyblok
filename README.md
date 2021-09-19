@@ -1,8 +1,6 @@
 # next-storyblok
 
-A zero config headless CMS web APP template use Next.js and Storyblok
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A zero config headless CMS web APP use Next.js and Storyblok, that works for both developers & business users.
 
 ## Getting Started
 
@@ -30,6 +28,10 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Storyblok, take a look at the following resources:
+
+- [Storyblok Features](https://www.storyblok.com/features) - learn about Storyblok features and API.
 
 ## Deploy on Vercel
 
