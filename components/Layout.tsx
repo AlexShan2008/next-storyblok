@@ -1,7 +1,9 @@
+import DefaultLayout from "@components/default-layout/default-layout.component";
+
 const Layout = ({ children }) => (
-  <div>
+  <DefaultLayout>
     <div className="max-w-5xl p-10 mx-auto">{children}</div>
-  </div>
+  </DefaultLayout>
 );
 
 export default Layout;

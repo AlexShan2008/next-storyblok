@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 
-import { Link } from "react-router-dom";
+import Image from "next/image";
+import Link from "next/link";
 import { useLocation } from "react-use";
 
 import logo from "@assets/images/logo.svg";
@@ -22,16 +23,13 @@ export const Header = () => {
       <nav>
         <ul>
           <li>
-            <img src={logo} className="logo" alt="logo" />
+            <Image src={logo} className="logo" alt="logo" />
           </li>
-          <li className={getClassName("/")}>
-            <Link to="/">Home</Link>
+          <li className={getClassName("/home")}>
+            <Link href="/home">Home</Link>
           </li>
           <li className={getClassName("/about")}>
-            <Link to="/about">About</Link>
-          </li>
-          <li className={getClassName("/users")}>
-            <Link to="/users">Users</Link>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>
