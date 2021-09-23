@@ -9,7 +9,6 @@ import Page from "@components/Page";
 import Storyblok from "@service/storyblok";
 import styles from "@styles/Home.module.css";
 
-
 const Home: NextPage = () => {
   const [content, setContent] = useState(null);
 

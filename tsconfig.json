@@ -12,9 +12,15 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": ["node", "cypress", "@types/cypress-image-snapshot"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "cypress/plugins/index.js"
+  ],
   "exclude": ["node_modules"],
   "extends": "./tsconfig.paths.json"
 }

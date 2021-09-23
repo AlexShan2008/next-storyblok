@@ -32,3 +32,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+## ignore cypress result
+/cypress/screenshots
+/cypress/videos
+/cypress/snapshots/**/__diff_output__
