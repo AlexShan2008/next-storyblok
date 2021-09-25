@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   background: var(--grey);
-
-  .logo {
-    width: 60px;
-  }
+  width: 100vw;
 
   ul {
     display: flex;

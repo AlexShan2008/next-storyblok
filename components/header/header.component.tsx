@@ -1,29 +1,25 @@
-import { useCallback } from "react";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useLocation } from "react-use";
+import { useRouter } from "next/router";
 
 import logo from "@assets/images/logo.svg";
+import styles from "@styles/Home.module.css";
 
 import { HeaderWrapper } from "./header.styled";
 
 export const Header = () => {
-  const state = useLocation();
+  const router = useRouter();
 
-  const getClassName = useCallback(
-    (path: string) => {
-      return state.pathname === path ? "active" : undefined;
-    },
-    [state.pathname]
-  );
+  const getClassName = (path: string) => {
+    return router.asPath === path ? styles.active : undefined;
+  };
 
   return (
     <HeaderWrapper>
       <nav>
         <ul>
           <li>
-            <Image src={logo} className="logo" alt="logo" />
+            <Image src={logo} width={60} height={60} alt="logo" />
           </li>
           <li className={getClassName("/home")}>
             <Link href="/home">Home</Link>
