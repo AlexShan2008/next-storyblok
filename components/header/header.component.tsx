@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import logo from "@assets/images/logo.svg";
-import styles from "@styles/Home.module.css";
 
 import { HeaderWrapper } from "./header.styled";
 
@@ -11,7 +10,7 @@ export const Header = () => {
   const router = useRouter();
 
   const getClassName = (path: string) => {
-    return router.asPath === path ? styles.active : undefined;
+    return router.asPath === path ? "active" : undefined;
   };
 
   return (
