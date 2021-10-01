@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
-    "@commitlint/config-angular": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
     "@types/cypress-image-snapshot": "^3.1.6",
     "@types/jest": "^27.0.2",
     "@types/react": "17.0.26",
