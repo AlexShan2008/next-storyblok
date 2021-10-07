@@ -7,6 +7,7 @@ const About: NextPage = () => {
     <Layout>
       <h3>About us</h3>
       <p>This is a About page.</p>
+      <p>Just test Merge request</p>
     </Layout>
   );
 };
