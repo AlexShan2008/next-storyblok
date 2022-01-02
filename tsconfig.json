@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,7 +17,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["node", "cypress", "@types/cypress-image-snapshot"]
+    "types": [
+      "node",
+      "cypress",
+      "@types/cypress-image-snapshot"
+    ],
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
@@ -21,6 +30,8 @@
     "**/*.tsx",
     "cypress/plugins/index.js"
   ],
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules"
+  ],
   "extends": "./tsconfig.paths.json"
 }
